@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Label Practice</title>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <h1>Sign In</h1>
+
+    <form action="" method="GET">
+        <label>
+            Username:
+            <input type="text" placeholder="Username">
+        </label>
+
+        <label>
+            Password:
+            <input type="password" placeholder="Password">
+        </label>
+
+        <input type="submit">
+
+    </form>
+    <br><br>
+    <hr>
+    <br><br>
+        <!-- above is the same as below, just add 
+        for attribute in label equal to id attribute of input -->
+    <form action="" method="GET">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+        
+        <button>Login</button>
+        
+    </form>
+
+</body>
+
+</HTML>

@@ -18,12 +18,13 @@
         <!-- action: where the form sends data to -->
         <!-- method: what HTTP method to use (GET/POST) GET is default-->
         
-        <form action="" method="GET">
+        <form action="" method="POST">
             <!-- when action is empty it just refreshes the current page -->
             <input name="username"pe="text" placeholder="Username">
             <input name="password" type="password" placeholder="Password">
-            <!-- with the name attribute, the name and content of the input -->
-            <!-- will be concatinated at the end of the base url -->
+            <!-- with the 'name' attribute, the name and content of the input
+            will be concatinated at the end of the base url when method = "GET" 
+            when method = "POST" the inputs will not be concatinated on to the url -->
             <!-- below is same as <button>submit</button> -->
             <input type="submit">
         </form>
