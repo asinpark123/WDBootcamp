@@ -32,10 +32,13 @@
 
             <!-- can use 'minlength'/'maxlength' but better with 'PATTERN' -->
             <label for="password">Password: </label>
-            <input type="password" id="password" placeholder="your password" minlength="5" maxlength="10">
-
+            <input type="password" id="password" placeholder="your password" 
+            minlength="5" maxlength="10" title="5 to 10 characters">
+            <!-- 'Title' attribute sets the error message to be displayed -->
             <br>
             
+            <!-- below is tedious work to be doing by hand, we'll later
+            learn how to generate these with javascript -->
             <label for="birthday">Birthday: </label>
             <select name="month" id="birthday">
                 <option value="">Month</option>
@@ -117,7 +120,7 @@
             <br>
 
             <label for="tnc">I agree to the terms and conditions </label>
-            <input type="checkbox" required>
+            <input type="checkbox" id="tnc" required>
 
             <br>
             <input type="submit">
