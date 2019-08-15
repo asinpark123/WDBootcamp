@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Validations</title>
+    
+    </head>
+
+<!-- we want to make sure that our inputs in our forms 
+follow a specific format, eg: email has @something.com,
+required fields are filled before submitting etc -->
+
+    <body>
+
+        <form action="" method="GET">
+        
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Username" required>
+
+            <!-- if we have 'required' in the attribute field of an input
+            at least in chrome, it will not submit without an input there -->
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password" required>
+            
+            <!-- data type validation: used to make sure the input satisfies
+                a certain format -->
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="E-mail" required>
+
+            <button>Login</button>
+        
+        </form>
+
+    </body>
+
+</html>
