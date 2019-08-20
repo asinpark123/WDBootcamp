@@ -1,0 +1,13 @@
+h1{
+    color: rgb(255,1,0);
+}
+
+li{
+    color: #4b0082;
+}
+
+h4{
+    color: RGBA(250, 234, 234, 0.2);
+}
+/* can use hexadecimal colour values as well as RGB() */
+/* can use RGBA() where A (from 0~1) is the transparency */
