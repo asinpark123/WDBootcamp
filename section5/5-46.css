@@ -1,0 +1,33 @@
+/* Background and border */
+
+body{
+    background: url(https://i.pinimg.com/originals/16/6c/a1/166ca1642c25895aeb60002537758bef.jpg);
+    /* can have background set as color or designate image URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* the above will have one image stretch out across the entire
+    page instead of having repeated tiles */
+}
+
+h1{
+    color: red;
+}
+
+li{
+    color: rgb(97, 64, 2);
+}
+
+h4{
+    color: purple;
+    /* 
+    border-color: green;
+    border-width: 2px;
+    border-style: dashed; 
+    
+    dashed border look like border made of disconnected lines
+
+    below is another way of doing borders */
+
+    border: 2px solid green;
+    
+}

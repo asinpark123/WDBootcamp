@@ -1,0 +1,70 @@
+/* CSS syntax
+
+selector {
+    property: value;
+}
+
+element{
+    can apply a style to the entire element
+}
+
+#ID{
+    can only apply to a single unique part of a page
+}
+
+.class{
+    can apply to multiple parts of a page
+}
+
+ */
+
+/* 
+* {} star selector selects every single elements on the page
+*/
+
+*{
+    border: 1px solid lightgrey;
+}
+
+/* 
+li a {} 
+decendent selector for all a tags that are descendents of an li
+*/
+
+li a{
+    color: red;
+}
+
+/* 
+h4 + ul{}
+Adjacent selector for all ul that is next to an h4 tag
+ */
+
+ h4 + ul{
+     border: 4px solid red;
+ }
+
+ /* 
+ a[href="http://google.com"]{}
+ Attribute selector for tags with sepecified selectors
+ input[type="checkbox"]{} is used very often
+ */
+  a[href="http://google.com"]{
+      background: lightblue;
+  }
+
+/* 
+li:nth-of-type(3){}
+nth of a type to select every nth of a given group of selectors
+li:nth-of-type(even){}
+will select every other li
+*/
+
+li:nth-of-type(3){
+    background: lightgreen;
+}
+
+/* inheritance: parent style can affect the child's styles
+in chrome inspector it'll come up as "inherited from _____"
+which ever style is sepecified closest to the given element will 
+be the style that the element will inherit */

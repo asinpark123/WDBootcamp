@@ -1,0 +1,37 @@
+/* CSS syntax
+
+selector {
+    property: value;
+}
+
+element{
+    can apply a style to the entire element
+}
+
+#ID{
+    can only apply to a single unique part of a page
+}
+
+.class{
+    can apply to multiple parts of a page
+}
+
+ */
+
+
+ body{
+
+ }
+
+ li{
+     border: 2px solid red;
+ }
+
+ #highlight{
+     background-color: yellow;
+ }
+
+ .completed{
+     /* can decorate texts using different types of line and color decorations */
+     text-decoration: line-through;
+ }
