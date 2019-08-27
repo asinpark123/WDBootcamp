@@ -1,0 +1,19 @@
+/* float: left; will stack each elements to the left
+instead of stacking on top of one another without any padding or margin*/
+
+img{
+    /* below percentage means 30% of the body */
+    width: 30%;
+    float: left;
+    margin: 1.6%
+}
+
+p{
+    font-family: "Raleway";
+    margin-left: 1.6%;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid lightgray;
+    width: 30%;
+    padding-bottom: 20px;
+}
