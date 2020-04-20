@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right, rgb(60, 210, 255), rgb(255, 255, 130));
+    font-family: "Open Sans", sans-serif;
+    font-size: normal;
+}
+
+input{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 30px;
+    padding: 3px 20px;
+    border: none;
+    font-size: 1em;
+}
+
+li{
+    list-style-type: none;
+    width: 100%;
+    padding: 3px 20px;
+    background-color: white;
+}
+
+#main{
+    max-width: 350px;
+    margin: 60px auto;
+}
+
+#heading{
+    background-color: cornflowerblue !important;
+    text-transform: uppercase;
+    color: white;
+    height: 30px;
+    font-size: 1.3em;
+}
+
+#dropdown{
+    position: absolute;
+    right: 30%;
+}
